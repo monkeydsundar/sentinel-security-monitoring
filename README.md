@@ -41,7 +41,7 @@ This project is a robust cloud-native SIEM solution using **Microsoft Sentinel**
 - [x] Custom dashboards with Workbooks
 - [ ] Integration with External Threat Intelligence
 - [ ] ML-based Anomaly Detection
-- [ ] AWS/GCP log ingestion support
+- [ ] Azure log ingestion support
 
 ## 📌 Author
 
