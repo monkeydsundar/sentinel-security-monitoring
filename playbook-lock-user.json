@@ -1,0 +1,28 @@
+{
+  "definition": {
+    "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+    "actions": {
+      "Lock_User": {
+        "type": "Http",
+        "inputs": {
+          "method": "POST",
+          "uri": "https://graph.microsoft.com/v1.0/users/{user-id}/accountEnabled",
+          "headers": {
+            "Authorization": "Bearer <token>",
+            "Content-Type": "application/json"
+          },
+          "body": {
+            "accountEnabled": false
+          }
+        },
+        "runAfter": {}
+      }
+    },
+    "triggers": {
+      "When_a_response_to_an_Azure_Sentinel_alert_is_triggered": {
+        "type": "Request",
+        "kind": "Http"
+      }
+    }
+  }
+}
