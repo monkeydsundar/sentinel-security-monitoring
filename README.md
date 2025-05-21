@@ -2,13 +2,13 @@
 
 This project is a robust cloud-native SIEM solution using **Microsoft Sentinel**, designed to detect brute-force attacks, automate incident response, and provide real-time threat visualization.
 
-## 🔧 Features
-- 🔐 Brute-force attack detection (Azure AD, VMs)
-- ⚡ Automated incident response with Logic Apps (Playbooks)
-- 📊 Real-time dashboards via Workbooks
-- 🌐 Scalable and cloud-native Azure architecture
+##  Features
+-  Brute-force attack detection (Azure AD, VMs)
+-  Automated incident response with Logic Apps (Playbooks)
+-  Real-time dashboards via Workbooks
+-  Scalable and cloud-native Azure architecture
 
-## 🏗️ Architecture Components
+##  Architecture Components
 
 | Component             | Description                                                  |
 |----------------------|--------------------------------------------------------------|
@@ -18,7 +18,7 @@ This project is a robust cloud-native SIEM solution using **Microsoft Sentinel**
 | Logic Apps (Playbooks) | Automates incident response (e.g., lock user, alert Teams) |
 | Workbooks             | Visual dashboards for monitoring                             |
 
-## 📜 Detection Rules
+##  Detection Rules
 
 | Rule Name                     | Description                                             | KQL Logic Used |
 |------------------------------|---------------------------------------------------------|----------------|
@@ -26,7 +26,7 @@ This project is a robust cloud-native SIEM solution using **Microsoft Sentinel**
 | Unauthorized IP Login        | Detects logins from unknown IPs                         | ✅             |
 | Repeated Login Failures      | Detects users with multiple rapid login failures        | ✅             |
 
-## 📂 Files Included
+##  Files Included
 
 - `Microsoft_Sentinel_Portfolio_Hema_Sundar.docx` – Full documentation
 - `detection-rule-brute-force.kql` – KQL rule for brute-force attempts
@@ -34,7 +34,7 @@ This project is a robust cloud-native SIEM solution using **Microsoft Sentinel**
 - `playbook-alert-teams.json` – Logic App to alert via Microsoft Teams
 - `architecture-diagram.png` – System design diagram (optional)
 
-## 🛣️ Roadmap
+##  Roadmap
 
 - [x] Brute-force attack detection using KQL
 - [x] Incident response automation using Logic Apps
@@ -43,7 +43,7 @@ This project is a robust cloud-native SIEM solution using **Microsoft Sentinel**
 - [ ] ML-based Anomaly Detection
 - [ ] Azure log ingestion support
 
-## 📌 Author
+##  Author
 
 **Challa Hema Sundar Yadav**  
 🔗 [GitHub Profile](https://github.com/monkeydsundar/sundar)
